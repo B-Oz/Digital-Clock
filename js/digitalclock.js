@@ -31,7 +31,7 @@
      month = month < 10 ? "0" + month : month;
      
 
-     let fullDay = day + "|" + month + "|" + year;
+     let fullDay = day  + "|" + month  + "|" + year;
      document.getElementById("date-time").innerText = fullDay;
 
 
