@@ -71,3 +71,41 @@ span {
   margin-left: 1rem;
   padding-right: 1rem;
 }
+
+/* ----------MEDİA-------------- */
+
+@media screen and (max-width: 992px) {
+  #clock {
+    font-size: 75px !important;
+  }
+  .hour,
+  .min {
+    width: 25%;
+  }
+
+  .sec {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width= 840px) {
+  .am_pm {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width= 660px) {
+  #date-time {
+    font-size: 2rem;
+  }
+
+  #clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    width: 100%;
+  }
+}
