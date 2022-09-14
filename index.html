@@ -5,29 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Show Time</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="hero"> 
-        <video  autoplay loop muted >
-            <source src="./img/Ink - 67358.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-          <div>
-            <div id="clock" ></div>
-            <div id="date-time"></div>
+    <div class="hero">
+      <video autoplay loop muted>
+        <source src="./img/Ink - 67358.mp4" type="video/mp4" />
+      </video>
+      <div class="content">
+        <div>
+          <div id="clock">
+            <div class="hour"><span class="Hour">hour</span>:</div>
+            <div class="min"><span class="Min">min</span>:</div>
+            <div class="sec">sec</div>
+            <div class="am_pm">am-pm</div>
           </div>
-
-            
-
-
+          <div id="date-time"></div>
         </div>
-
-        
+      </div>
     </div>
-    
 
     <script src="./js/digitalclock.js"></script>
   </body>
